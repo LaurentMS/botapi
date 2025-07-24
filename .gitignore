@@ -1,0 +1,36 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables and configuration files
+.env
+
+# Dependency directories
+venv/
+env/
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Migrations directory for database
+migrations/
+
+# Temporary files
+*.bak
+*.tmp
+
+# Build directories
+build/
+dist/
+*.egg-info/

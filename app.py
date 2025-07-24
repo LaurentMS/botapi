@@ -74,7 +74,7 @@ async def hello_test(request):
     body = await request.text()
     if "hello" in body.lower() or "hi" in body.lower():
         return web.Response(text=f"Hi {name}")
-    return web.Response(text=f"Connected, {name}")
+    return web.Response(text=f"Connected, {name}", status=200)
 
 
 # Web server setup
